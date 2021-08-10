@@ -1,3 +1,4 @@
+# This will only run if you have python installed and run in macos(Bcause i don't have multiple computers :v)
 import subprocess
 import os
 
@@ -12,7 +13,7 @@ type = name[1]
 type = type.lower()
 commands = []
 
-#This is equal to 'cd ~/Desktop/programs'
+#This is equal to 'cd ~/Desktop/programs', change to run where ever you like
 os.chdir("/Users/Alcen/Desktop/programs")
 
 #Code to insert different commands base on extension type
