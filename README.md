@@ -1,8 +1,5 @@
-- 👋 Hi, I’m @alcenium
-- 👀 I’m interested in Programming
-- 🌱 I’m currently learning Java
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me (Currently can't :)
+Hi,
+I'm a student and want to know more about programming!
 
 <!---
 alcenium/alcenium is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
