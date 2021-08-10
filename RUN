@@ -1,7 +1,10 @@
 #!/bin/bash
-# This script will compile and run python or java.
+# This script will compile and run java and c, need the compiler.py file win the directory(currently is ~/Desktop/programs).
+# Work for macos, you can change the cd part so it can run in where ever you want!
 
 echo "Starting the program..."
 cd ~/Desktop/programs
 python3 compiler.py
 read a
+
+# * Update: it can run python now :)
