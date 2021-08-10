@@ -1,0 +1,7 @@
+#!/bin/bash
+# This script will compile and run python or java.
+
+echo "Starting the program..."
+cd ~/Desktop/programs
+python3 compiler.py
+read a
