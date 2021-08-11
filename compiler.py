@@ -13,8 +13,13 @@ type = name[1]
 type = type.lower()
 commands = []
 
-#This is equal to 'cd ~/Desktop/programs', change to run where ever you like
-os.chdir("/Users/Alcen/Desktop/programs")
+#Explain: Type anything in and it will use the current directory that contain the compiler.py
+directory = input("Enter file directory(Default: current file directory)\n> ")
+try:
+	os.chdir(directory)
+except FileNotFoundError:
+	directory2 = os.getcwd()
+	os.chdir(directory2)
 
 #Code to insert different commands base on extension type
 if type == "java":
