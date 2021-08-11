@@ -19,8 +19,8 @@ os.chdir("/Users/Alcen/Desktop/programs")
 #Code to insert different commands base on extension type
 if type == "java":
 	commands = [["echo",""],["javac",f"{dir}.java"],["java",f"{dir}"],["rm",f"{dir}.class"]]
-elif type == "python":
-	commands = [["echo",""],["python3",f"{dir}"]]
+elif type == "py":
+	commands = [["echo",""],["python3",f"{dir}.py"]]
 elif type == "c":
 	commands = [["echo",""],["gcc",f"{dir}.c","-o","Output"],["./Output"],["rm","Output"]]
 
